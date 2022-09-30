@@ -37,11 +37,11 @@ class ViewController: UIViewController {
 
             }
             else if sender.tag == 24 {
-                labelOpe.text = ""
+                labelOpe.text = "-"
                 label.text = "-"
             }
             else if sender.tag == 13 {
-                labelOpe.text = ""
+                labelOpe.text = "+"
                 label.text = "+"
             }
             else if sender.tag == 17{
@@ -89,6 +89,7 @@ class ViewController: UIViewController {
             else if operation == 19{
                 label.text = String(Int(previousNumber) % Int(number))
             }
+            
             
             
         }

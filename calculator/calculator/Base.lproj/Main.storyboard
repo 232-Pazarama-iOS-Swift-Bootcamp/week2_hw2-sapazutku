@@ -36,9 +36,31 @@
                                 <constraints>
                                     <constraint firstItem="Bad-l7-mKY" firstAttribute="top" secondItem="awb-gB-LyO" secondAttribute="top" constant="15" id="4Co-dH-HHi"/>
                                     <constraint firstAttribute="trailing" secondItem="DpM-e9-1PE" secondAttribute="trailing" constant="15" id="GYs-HK-evT"/>
+                                    <constraint firstItem="DpM-e9-1PE" firstAttribute="leading" secondItem="awb-gB-LyO" secondAttribute="leading" constant="25" id="TVh-Id-j3U"/>
+                                    <constraint firstItem="DpM-e9-1PE" firstAttribute="top" secondItem="awb-gB-LyO" secondAttribute="top" constant="15" id="ehL-RT-SG4"/>
                                     <constraint firstAttribute="bottom" secondItem="DpM-e9-1PE" secondAttribute="bottom" constant="15" id="loS-Qx-RHT"/>
                                     <constraint firstAttribute="trailing" secondItem="Bad-l7-mKY" secondAttribute="trailing" constant="10" id="w1O-w9-gY1"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="GYs-HK-evT"/>
+                                        <exclude reference="TVh-Id-j3U"/>
+                                        <exclude reference="ehL-RT-SG4"/>
+                                        <exclude reference="loS-Qx-RHT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="TVh-Id-j3U"/>
+                                        <include reference="ehL-RT-SG4"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="GYs-HK-evT"/>
+                                        <include reference="loS-Qx-RHT"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="A3X-Hg-o3g" userLabel="Stack View Yellow">
                                 <rect key="frame" x="0.0" y="199.66666666666669" width="390" height="610.33333333333326"/>
