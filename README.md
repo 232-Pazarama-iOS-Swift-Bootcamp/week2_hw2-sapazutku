@@ -1,7 +1,9 @@
 
-![Simulator Screen Recording - iPhone 11 - 2022-09-30 at 21 51 01](https://user-images.githubusercontent.com/64533036/193337788-d6de304a-1a2f-4fa4-9f06-97edf46d6248.gif)
+![Simulator Screen Recording - iPhone 11 - 2022-10-01 at 14 45 10](https://user-images.githubusercontent.com/64533036/193408013-7cfe80e6-d638-498a-903b-23cb80143194.gif)
 
-![Simulator Screen Shot - iPhone 11 - 2022-09-30 at 21 52 25](https://user-images.githubusercontent.com/64533036/193337847-3b9fc772-f532-4dca-be82-0bd6b1ceaf5b.png)
+
+
+![Simulator Screen Shot - iPhone 11 - 2022-10-01 at 14 45 22](https://user-images.githubusercontent.com/64533036/193408026-41e74057-0d29-49ff-a1ad-d3d1d47c05cc.png)
 
 # Pazarama iOS Bootcamp - Hafta 2 - Ödev  
  
